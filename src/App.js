@@ -1,5 +1,11 @@
+import FirstPage from './pages/FirstPage'
+
 function App() {
-  return <div className="App"></div>
+  return (
+    <div className="retinaDisplay:bg-green">
+      <FirstPage />
+    </div>
+  )
 }
 
 export default App
