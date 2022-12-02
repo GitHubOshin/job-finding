@@ -1,10 +1,14 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    screens: {
+      mobile: '375px',
+      laptop: '1920px'
+    },
     colors: {
       darkBlue: '#183B56',
       darkGrey: '#3F475C',
-      grey:'#838995',
+      grey: '#838995',
       grey001: '#5A7184',
       grey002: '#92AABD',
       grey003: '#acb8c1',
@@ -20,7 +24,7 @@ module.exports = {
       bgSubscribe: '#F3F6FB',
       white: '#FFFFFF',
       green: '#7BC678',
-      divPink: 'rgba(233, 84, 50, 0.1)',
+      divPink: 'rgba(233, 84, 50, 0.1)'
     },
     fontFamily: {
       dmSans: ['DM Sans'],
